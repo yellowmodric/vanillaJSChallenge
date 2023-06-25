@@ -1,0 +1,78 @@
+.hidden {
+    display: none;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+body {
+    text-align: center;
+}
+
+h2#clock {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    align-items: center;
+}
+
+h1#greeting {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#quote {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+    color: white;
+}
+
+ul button {
+    background-color: red;
+    cursor: pointer;
+    border: 0px solid red;
+    border-radius: 0.25rem;
+}
+
+#quote span:first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#weather {
+    color: white;
+    text-align: end;
+}
+
+#todo-form input{
+    width: 200px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 0.25rem;
+    border: 1px solid gray;
+}
+
+#logout-form button {
+    margin-bottom: 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 0.25rem;
+}
